@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -7,67 +8,82 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:hint="@string/input_text"
         android:importantForAutofill="no"
         android:inputType="text"
-        android:minHeight="48dp"
-        android:textColorHint="#757575" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="@string/input_person_name"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="32dp"
         android:textColorHint="#757575"
-        android:importantForAutofill="no" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
+        android:hint="@string/input_person_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="32dp"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:hint="@string/phone"
+        android:importantForAutofill="no"
         android:inputType="phone"
-        android:minHeight="48dp"
-        android:importantForAutofill="no" />
+        android:minHeight="32dp"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:hint="@string/number"
+        android:importantForAutofill="no"
         android:inputType="number"
-        android:minHeight="48dp"
-        android:importantForAutofill="no" />
+        android:minHeight="32dp"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:hint="@string/password"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
-        android:minHeight="48dp"
-        android:importantForAutofill="no" />
+        android:minHeight="32dp"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:hint="@string/email"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        android:importantForAutofill="no" />
+        android:minHeight="32dp"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:hint="@string/postal_address"
         android:importantForAutofill="no"
         android:inputType="textPostalAddress"
-        android:minHeight="48dp"
-        android:textColorHint="#757575" />
+        android:minHeight="32dp"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

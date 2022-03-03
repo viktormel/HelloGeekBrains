@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="textview">Hello GeekBrains</string>
+    <string name="name">Name</string>
+    <string name="button">Button</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="Switch">switch</string>
+    <string name="hello_geekbrains">Hello GeekBrains</string>
+    <string name="input_text">input text</string>
+    <string name="input_person_name">input personName</string>
+    <string name="phone">phone</string>
+    <string name="number">number</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="postal_address">postal address</string>
 </resources>
